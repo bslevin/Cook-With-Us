@@ -244,3 +244,91 @@ h2 {
 
     color: black;
 }
+
+/*Create form rules*/
+
+.signup-outter  {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/sign-up.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#sign-up h2 {
+    
+    font-size: 230%;
+    font-family: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #252525;
+    
+}
+
+.signup-form {
+
+    height: max-content;
+    width: 34%;
+
+    font-size: 130%;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.8);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:space-around;
+   
+    
+}
+
+label {
+    text-align: center;
+
+    
+  }
+  
+input {
+    height: 30px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+ .checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+textarea {
+    height: 100px;
+}
+
+button {
+    font-size: 30px;
+    font-family: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color:  black;
+    border-radius: 15px 40px;
+    height: 60px;
+    width: 50%;
+}
+
+button:hover {
+    color: blue
+}
