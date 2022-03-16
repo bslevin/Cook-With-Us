@@ -1,2 +1,9 @@
 /*import font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+/*Clear any existing padding & margin from browser*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
