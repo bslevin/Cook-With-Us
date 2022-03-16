@@ -8,6 +8,17 @@
     padding: 0;
 }
 
+/*Create .container rule*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
 /*Create body rule*/
 
 body {
@@ -35,4 +46,23 @@ h2 {
     letter-spacing: 4px;
     color: #3a3a3a;
     
+}
+
+/*Create logo rule*/
+
+.logo {
+    display: flex;
+    justify-content:left;
+    line-height: 50px;
+}
+
+.logo h1 {
+    font-size: 230%;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    margin-left: 10px;
+}
+
+.logo a {
+    text-decoration: none;
 }
