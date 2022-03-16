@@ -245,7 +245,7 @@ h2 {
     color: black;
 }
 
-/*Create form rules*/
+/*Create form rules and add image to the sign-up section*/
 
 .signup-outter  {
     height: 100vh;
@@ -331,4 +331,51 @@ button {
 
 button:hover {
     color: blue
+}
+
+/*Create contact section style*/
+
+.contact {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    
+}
+
+.contact h2 {
+   font-size: 230%;
+   font-family: inherit;
+   text-transform: uppercase;
+   color: #3a3a3a;
+   
+   padding: 10px;
+}
+
+.social {
+   
+   text-align: center;
+   
+}
+
+.social a {
+   font-size: 230%;
+   margin: 15px;
+   padding: 5%;
+   color: #3a3a3a;
+}
+
+.address {
+   
+   font-size: none;
+   font-family: oswald, sans-serif;
+   text-align: center;
+   color: #3a3a3a;
+
+   padding: 10px;
+}
+
+.address h3 {
+
+   text-align: center;
+   color: #3a3a3a;
 }
