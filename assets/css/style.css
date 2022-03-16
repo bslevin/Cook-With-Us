@@ -18,3 +18,21 @@ body {
     line-height: 1.6;
     overflow: hidden;
 }
+
+/*Add rule for h1,h3 and h2*/
+
+h1, h3 {
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+    
+}
+
+h2 {
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+    
+}
