@@ -66,3 +66,33 @@ h2 {
 .logo a {
     text-decoration: none;
 }
+
+/*navbar and menu rules*/
+
+.navbar ul {
+    font-size:larger;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+}
+
+.navbar ul li {
+    padding: 1rem;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(58, 58, 58, .6);
+
+}
+
+.navbar ul li a:hover {
+    color: blue
+}
