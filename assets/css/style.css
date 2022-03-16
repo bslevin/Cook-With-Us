@@ -148,3 +148,99 @@ h2 {
         right: 75px;
             
 }
+
+/*Create rules for the About-us section*/
+
+#about {
+    position: relative;
+}
+
+#about h2 {
+    font-size: 230%;
+    font-family: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #252525
+
+}
+
+#chef {
+    
+    height: 100vh;
+    width: 33%;
+    background: url(../images/chef-sandra.jpeg);
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+#kitchen{
+
+    height: 100vh;
+    width: 34%;
+    background: url(../images/farm.jpeg);
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+
+    text-align: center;
+    
+ 
+}
+
+#our-courses {
+    
+    height: 100vh;
+    width: 33%;
+    background: url(../images/courses.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-us h3 {
+    font-family: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 50px;
+
+    padding: 10px;
+
+    background-color: rgba(255, 255, 255, 0.4);
+
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.about-us p {
+    font-size: 150%;
+    font-family: inherit;
+    text-transform: none;
+    letter-spacing: 4px;
+    
+    width: 100%;
+    height: 200px;
+
+    padding: 10px;
+
+    background-color: rgba(240, 240, 240, 0.5);
+
+    color: black;
+}
