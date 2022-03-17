@@ -411,4 +411,46 @@ button:hover {
         height: 100vh;
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    .logo {
+        justify-content: center;
     }
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        background-position: right;
+        height: 100vh;
+        width: 100%;
+        margin: 5px;
+    }
+    .hero-text {
+        width: 100%;
+        border-radius: 0;
+        left: 0;
+        justify-content: center;
+        
+    }
+
+    #chef {
+        margin: 5px;
+    }
+
+    #kitchen {
+        margin: 5px;
+    }
+
+    #our-courses {
+        margin: 5px;
+    }
+
+    .signup-form {
+        height: fit-content;
+        width: 100%;
+    }
+}
