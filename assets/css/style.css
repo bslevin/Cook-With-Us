@@ -454,3 +454,30 @@ button:hover {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .hero {
+        margin: 0px;
+    }
+    #chef {
+        margin: auto;
+    }
+
+    #kitchen {
+        margin: auto;
+    }
+
+    #our-courses {
+        margin: auto;
+    }
+    
+    .hero-text {
+        bottom: 0px;
+    }
+
+    .signup-outter  {
+        height: fit-content;
+
+    }
+}
