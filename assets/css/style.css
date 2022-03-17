@@ -379,3 +379,36 @@ button:hover {
    text-align: center;
    color: #3a3a3a;
 }
+
+/*Create media queries*/
+
+@media screen and (max-width: 1200px) {
+    .about-us {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .about-us p {
+        padding: 10px;
+        height: min-content;
+    }
+    #chef {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #kitchen {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #our-courses {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .hero {
+        height: 100vh;
+        width: 100%;
+    }
+    }
