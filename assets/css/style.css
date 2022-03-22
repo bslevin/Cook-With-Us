@@ -212,6 +212,7 @@ h2 {
 }
 
 .about-us h3 {
+    
     font-family: inherit;
     text-transform: uppercase;
     text-align: center;
@@ -456,7 +457,7 @@ button:hover {
 
 @media screen and (max-width: 450px) {
 
-    .hero {
+    /*.hero {
         margin: 0px;
     }
     #chef {
@@ -473,10 +474,20 @@ button:hover {
     
     .hero-text {
         bottom: 0px;
-    }
+    }*/
 
     .signup-outter  {
         height: fit-content;
 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        font-size: small;
+    }
+
+    button {
+        font-size:medium;
     }
 }
