@@ -276,6 +276,7 @@ h2 {
 
     height: max-content;
     width: 34%;
+    /*align-items: center;*/
 
     font-size: 130%;
     font-family: inherit;
@@ -285,10 +286,10 @@ h2 {
     padding: 30px;
     background-color: rgba(240, 240, 240, 0.8);
     
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content:space-around;
+    align-content: space-around;*/
    
     
 }
@@ -342,7 +343,7 @@ button:hover {
     
 }
 
-.contact h2 {
+.social h2 {
    font-size: 230%;
    font-family: inherit;
    text-transform: uppercase;
