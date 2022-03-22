@@ -275,11 +275,12 @@ h2 {
 .signup-form {
 
     height: max-content;
-    width: 50%;
+    width: 100%;
 
     font-size: 130%;
     font-family: inherit;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 4px;
     margin: 20px;
     padding: 30px;
