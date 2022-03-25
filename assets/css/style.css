@@ -648,3 +648,28 @@ button:hover {
 
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    table {
+        font-size: x-small;
+    }
+
+    .signup-outter {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .logo h1 {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .menu ul {
+        font-size: x-small;
+    }
+
+}
