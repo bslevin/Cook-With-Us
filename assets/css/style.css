@@ -164,16 +164,51 @@ h2 {
     text-align: center;
 }
 
-#chef {
+.chef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    height: 100vh;
-    width: 33%;
-    background: url(../images/chef-sandra.jpeg);
+    background-color: rgba(240, 240, 240, 0.5);
+    margin: 10px;
+}
 
-    background-position: left;
+#the-chef {
+    
+    height: 50vh;
+    width: 100%;
+    background: url(../images/chef\ sandra.jpeg);
+
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 10px;
+    
+}
+
+.chef-text {
+    height: 50vh;
+    width: auto;
     margin: 10px;
+}
+
+.chef-text h3 {
+    font-family: inherit;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 4px;
+    color: black;
+}
+
+.chef p {
+    font-family: inherit;
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 4px;
+    padding: 20px;
+    width: 60vw;
+
+    
 }
 
 
