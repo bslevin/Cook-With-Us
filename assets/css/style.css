@@ -625,3 +625,26 @@ button:hover {
         height: fit-content;
     }
 }
+
+@media screen and (max-width: 700px) {
+
+    .navbar {
+        display: block;
+
+
+    }
+
+    .logo {
+        justify-content: center;
+
+    }
+
+    .menu ul {}
+
+    .menu ul li {
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
