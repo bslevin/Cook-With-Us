@@ -254,15 +254,16 @@ h2 {
     color: black;
 
 }
+
 .kitchen p {
     font-family: inherit;
     text-transform: none;
     text-align: left;
     letter-spacing: 4px;
-    
+
     width: 40vw;
     height: fit-content;
-    
+
     padding: 20px;
     color: black;
 }
@@ -287,38 +288,38 @@ h2 {
     align-items: center;
     background-color: rgba(240, 240, 240, 0.5);
     margin: 10px;
-    
+
 }
 
 .structure div {
     height: 45vh;
     width: auto;
-    font-size:larger;
+    font-size: larger;
     border: 5px solid white;
 }
 
 .structure h4 {
-        font-family: inherit;
-        text-transform: none;
-        text-align: center;
-        letter-spacing: 4px;
-        
-        width: auto;
-        height: fit-content;
-        
-    }
-    
+    font-family: inherit;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 4px;
+
+    width: auto;
+    height: fit-content;
+
+}
+
 .structure p {
-    
-        font-family: inherit;
-        text-transform: none;
-        text-align: left;
-        letter-spacing: 4px;
-        width: auto;
-        height: fit-content;
-        padding: 10px;
-    }
-    
+
+    font-family: inherit;
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 4px;
+    width: auto;
+    height: fit-content;
+    padding: 10px;
+}
+
 .offer {
     background-color: rgba(240, 240, 240, 0.5);
     margin: 10px;
@@ -328,33 +329,34 @@ h2 {
 }
 
 .offer h3 {
-       
-        font-family: oswald, sans-serif;
-        font-weight: 300;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: #3a3a3a;
-        width: auto;
-        height: fit-content;
-        
-        
-        color: black;
-        margin: 0px;
-    }
-    
+
+    font-family: oswald, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+    width: auto;
+    height: fit-content;
+
+
+    color: black;
+    margin: 0px;
+}
+
 .offer p {
-    
-        font-family: inherit;
-        text-transform: none;
-        text-align: left;
-        letter-spacing: 4px;
-        
-        width: auto;
-        height: fit-content;
-        
-        padding: 10px;
-    }
+
+    font-family: inherit;
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 4px;
+
+    width: auto;
+    height: fit-content;
+
+    padding: 10px;
+}
+
 table {
     border: 1px solid black;
     margin-left: auto;
@@ -366,53 +368,49 @@ table {
 
 table th {
     text-align: center;
-    text-transform:uppercase;
-    background-color:black;
+    text-transform: uppercase;
+    background-color: black;
     color: rgba(240, 240, 240, 1);
     padding: 5px;
-    
+
 }
 
 table td {
     text-align: center;
-    text-transform:uppercase;
-    background-color:rgba(240, 240, 240, 0.5);
+    text-transform: uppercase;
+    background-color: rgba(240, 240, 240, 0.5);
     color: black;
     padding: 5px;
-} 
+}
 
 
 
 /*Create form rules and add image to the sign-up section*/
 
+#sign-up h2 {
+
+    font-size: 230%;
+    font-family: inherit;
+    text-align: center;
+}
+
 .signup-outter {
     height: 100vh;
-    width: 100%;
+    width: auto;
     background: url(../images/sign-up.jpeg);
-    display: flex;
-    align-items: center;
-    justify-content: cover;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-
-#sign-up h2 {
-
-    font-size: 230%;
-    font-family: inherit;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 4px;
-    color: #252525;
-
+    display: flex;
+    align-items: center;
+    justify-content: cover;
 }
 
 .signup-form {
 
-    height: max-content;
+    height: fit-content;
     width: 100%;
 
     font-size: 130%;
@@ -422,7 +420,7 @@ table td {
     letter-spacing: 4px;
     margin: 20px;
     padding: 30px;
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: rgba(240, 240, 240, 1);
 
     display: flex;
     flex-direction: column;
@@ -432,10 +430,38 @@ table td {
 
 }
 
+.text label {
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.choose {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.query {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.checkbox label {
+    font-style: italic;
+    font-size: medium;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
 label {
     text-align: center;
-
-
 }
 
 input {
@@ -444,28 +470,26 @@ input {
     justify-content: space-around;
 }
 
-.checkbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
 textarea {
     height: 100px;
+    resize: none;
 }
 
 button {
-    font-size: 30px;
+    font-size: larger;
     font-family: inherit;
     text-transform: uppercase;
+    font-style: italic;
     text-align: center;
     color: white;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
-    border-radius: 15px 40px;
-    height: 60px;
-    width: 50%;
+
+    height: max-content;
+    width: max-content;
+    border-radius: 15px 15px;
+    padding: 10px;
 }
 
 button:hover {
