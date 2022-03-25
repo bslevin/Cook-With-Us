@@ -545,6 +545,22 @@ button:hover {
 
 /*Create media queries*/
 
+@media screen and (min-width: 2400px) {
+    .logo {
+        font-size: larger;
+    }
+    .menu {
+        font-size: larger;
+        
+    }
+    h2 {
+        font-size: larger;
+    }
+    h3, h4, P {
+        font-size: xx-large;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .about-us {
         flex-direction: column;
