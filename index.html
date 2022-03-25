@@ -192,36 +192,53 @@
 
 <!--Sign Up section with form and image-->
 
-    <section id="sign-up">
-        <h2>Sign Up</h2>
-        <div class="signup-outter">
-            <form class="signup-form" name="sign-up" action="https://formdump.codeinstitute.net/" method="post">
-                <label for="fname">Full Name:</label>
-                <input type="text" name="fname" id="fname" placeholder="fullname" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="email" required>
-                
-                <div class="checkbox">
-                    <label>Choose Courses</label>
-                    <label for="italian">Italian</label>
-                    <input type="checkbox" id="italian" name="course">
+<section id="sign-up">
+    <h2>Sign Up</h2>
+    <div class="signup-outter">
+      <form
+        class="signup-form"
+        name="sign-up"
+        action="https://formdump.codeinstitute.net/"
+        method="post"
+      >
+        <div class="text">
+          <label for="fname">Full Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="fullname"
+            required
+          />
 
-                    <label for="spanish">Spanish</label>
-                    <input type="checkbox" id="Spanish" name="course">
-                    
-                    <label for="french">French</label>
-                    <input type="checkbox" id="french" name="course">
-                    
-                </div>
-                <label for="query">Query:</label>
-                <textarea name="query" id="query">Query us anything!</textarea>
-                <br>
-                <button type="submit">Submit</button>
-
-            </form>  
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            required
+          />
         </div>
-    </section>
+
+        <label class="choose">Choose Courses</label>
+        <div class="checkbox">
+          <label for="italian">Italian</label>
+          <input type="checkbox" id="italian" name="course" />
+
+          <label for="spanish">Spanish</label>
+          <input type="checkbox" id="Spanish" name="course" />
+
+          <label for="french">French</label>
+          <input type="checkbox" id="french" name="course" />
+        </div>
+        <div class="query"><label for="query">Query:</label></div>
+        <textarea name="query" id="query">Query us anything!</textarea>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
 
 <!--Footer section with social media links and Address-->
 
