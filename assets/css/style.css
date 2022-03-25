@@ -549,128 +549,79 @@ button:hover {
     .logo {
         font-size: larger;
     }
+
     .menu {
         font-size: larger;
-        
+
     }
+
     h2 {
         font-size: larger;
     }
-    h3, h4, P {
+
+    h3,
+    h4,
+    P {
         font-size: xx-large;
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .about-us {
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .about-us p {
-        padding: 10px;
-        height: min-content;
-    }
-
-    #chef {
-        height: 100vh;
-        width: 100%;
-    }
-
-    #kitchen {
-        height: 100vh;
-        width: 100%;
-    }
-
-    #our-courses {
-        height: 100vh;
-        width: 100%;
-    }
-
-    .hero {
-        height: 100vh;
-        width: 100%;
-    }
-
-}
-
 @media screen and (max-width: 900px) {
 
-    .logo {
+    .chef {
+        flex-direction: column;
         justify-content: center;
-    }
+        align-content: center;
 
-    .menu {
-        display: none;
-    }
-
-    .hero {
-        background-position: right;
-        height: 100vh;
-        width: 100%;
-        margin: 5px;
-    }
-
-    .hero-text {
-        width: 100%;
-        border-radius: 0;
-        left: 0;
-        justify-content: center;
 
     }
 
-    #chef {
-        margin: 5px;
-    }
-
-    #kitchen {
-        margin: 5px;
-    }
-
-    #our-courses {
-        margin: 5px;
-    }
-
-    .signup-form {
+    .chef-text {
         height: fit-content;
-        width: 100%;
     }
-}
 
-@media screen and (max-width: 450px) {
+    .chef-text p {
+        width: auto;
+    }
 
-    /*.hero {
+    #the-chef {
+        height: 50vh;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .awards {
+        font-size: 90%;
+    }
+
+    #the-kitchen {
+        height: 50vh;
+        width: 100%;
         margin: 0px;
     }
-    #chef {
-        margin: auto;
+
+    .kitchen {
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
     }
 
-    #kitchen {
-        margin: auto;
+    .kitchen p {
+        width: auto;
     }
 
     #our-courses {
-        margin: auto;
+        height: auto;
     }
-    
-    .hero-text {
-        bottom: 0px;
-    }*/
 
-    .signup-outter {
+    .structure {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .structure div {
         height: fit-content;
-
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .logo {
-        font-size: small;
-    }
-
-    button {
-        font-size: medium;
     }
 }
