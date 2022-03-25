@@ -574,7 +574,6 @@ button:hover {
         justify-content: center;
         align-content: center;
 
-
     }
 
     .chef-text {
@@ -640,7 +639,10 @@ button:hover {
 
     }
 
-    .menu ul {}
+    .menu ul li a  {
+        padding: 0
+
+    }
 
     .menu ul li {
 
