@@ -150,18 +150,18 @@ h2 {
 
 /*Create rules for the About-us section*/
 
-#about {
-    position: relative;
-}
-
-#about h2 {
+#about-us h2 {
     font-size: 230%;
     font-family: inherit;
-    text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4px;
-    color: #252525
+}
 
+#about-us h3 {
+    
+    font-family: oswald, sans-serif;
+    font-size: 180%;
+    font-weight: 900;
+    text-align: center;
 }
 
 #chef {
