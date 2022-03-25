@@ -69,31 +69,35 @@ h2 {
 
 /*navbar and menu rules*/
 
-.navbar ul {
-    font-size:larger;
+.navbar {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
     list-style: none;
-
-    width: 100%;
-    height: 0px;
-    line-height: 0px;
 }
 
-.navbar ul li {
-    padding: 1rem;
-
-}
-
-.navbar ul li a {
+.menu li a {
+    display: block;
     text-decoration: none;
-    text-transform: uppercase;
     color: rgba(58, 58, 58, .6);
-
+    padding: 1rem;
 }
 
-.navbar ul li a:hover {
+.navbar li a:hover {
     color: blue
 }
 
