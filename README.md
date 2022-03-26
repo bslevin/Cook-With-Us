@@ -67,5 +67,6 @@ Short section conatining social media links and address. As it is a new bussines
 ## - Credits
 
 - Traversy Media tutorials on CSS and Flexbox.
-- Dev Ed tutorials
-- Web Dev tutorials helped with the navbar issue I was having
+- Dev Ed tutorials.
+- Web Dev tutorials helped with the navbar issue I was having.
+- Figma was used as a wireframe.
