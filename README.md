@@ -8,3 +8,26 @@ The data will be used to better understand the interest in the bussiness.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/responsiveness.png?raw=true)
 
+## FEATURES
+
+### - Navigation
+
+### - Hero section
+
+### - About Us
+
+### - Our Courses
+
+### - Sign Up
+
+### - Contact section
+
+### - Testing
+
+### - Bugs
+
+### - Validator Testing
+
+### - Deployment
+
+## - Credits
