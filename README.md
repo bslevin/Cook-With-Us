@@ -17,16 +17,16 @@ The data will be used to better understand the interest in the bussiness.
 - Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. The link to the relevant section of the page. For the future as the site grows they can become individual pages themselves.
 - Logo H1 uses the Lato font and Nav menu use Oswald font as they compliment eachother nicely.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/?raw=true)
+![Screenshot of the website on serveral screen sizes]()
 
 ### - Hero section
 - The hero image was taken Pexel.com, It is used to draw the the user in. Two chefs working side by side in a professional Kitchen.
 - A hero text that sit 20px off the bottom of the hero image, its uses an opaque background color and white on the text color. Claerly identifiying the purpose of the site and captivating the users attention.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/?raw=true)
+![Screenshot of the website on serveral screen sizes]()
 
 ### - About Us
-- The about us section introduces the user to the owner a founder of the bussiness, her accolades and the venue where the courses take place. This is an importamnt section to validate the user have searched for the site and to also showcase the level of expertise of the bussiness.
+The about us section introduces the user to the owner a founder of the bussiness, her accolades and the venue where the courses take place. This is an importamnt section to validate the user have searched for the site and to also showcase the level of expertise of the bussiness.
 Done in 3 sections
 - 1 Introduction to chef 
 - 2 Awards connected to the chef
@@ -35,12 +35,26 @@ Done in 3 sections
 ### - Our Courses
 
 The Our Course section is again broken down in the elements.
-- Introduction to the individual courses and what is entailed in each course. Each course is explained  
--  
+- Introduction to the individual courses and what is entailed in each course.
+- What the course has to offer, it's uniquness and the oportunity it supplies the trainee.
+- A table to give information regarding each course, Begginging, the cost & the cost of accomadation is introduced.
 
 ### - Sign Up
 
+The Sign Up section is made of a hero image for the background and the form sits inside a baground color with little opaque applied.
+The section is multi purposed. It allows the user enquire as to availabitly to individual or all the courses on offer. Gives the option for user to ask questions and allows the owner collect data on request. The data can be used if they need to scale the attendence of the course and should she scide to do a blog or newsletter.
+
+- Full Name and Email placeholder and required added.
+- 3 Checkboxes representing each course, checkbox used for multi select,
+- A query textarea. Placeholder and no resize added.
+- Submit button whit :hoover color blue.
+
+
 ### - Contact section
+
+Short section conatining social media links and address. As it is a new bussiness, with time these links will become more integrated in the learning and knowledge of the website. Also has the posibility, should the other links become indivdual pages to add more information.
+- Social media links
+- Address
 
 ### - Testing
 
@@ -51,3 +65,7 @@ The Our Course section is again broken down in the elements.
 ### - Deployment
 
 ## - Credits
+
+- Traversy Media tutorials on CSS and Flexbox.
+- Dev Ed tutorials
+- Web Dev tutorials helped with the navbar issue I was having
