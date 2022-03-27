@@ -390,7 +390,9 @@ table td {
 
 
 /*Create form rules and add image to the sign-up section*/
-
+#sign-up {
+    border: 1px solid red;
+}
 #sign-up h2 {
 
     font-size: 230%;
@@ -409,13 +411,13 @@ table td {
 
     display: flex;
     align-items: center;
-    justify-content: cover;
+    justify-content: center;
 }
 
 .signup-form {
 
     height: fit-content;
-    width: 100%;
+    width: 80%;
 
     font-size: 130%;
     font-family: inherit;
