@@ -151,7 +151,9 @@ h2 {
 }
 
 /*Create rules for the About-us section*/
-
+#about-us {
+    margin-top: 10px;
+}
 #about-us h2 {
     font-size: 230%;
     font-family: inherit;
