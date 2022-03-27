@@ -33,10 +33,11 @@ body {
 /*Add rule for h1,h3 and h2*/
 
 h1,
-h3 {
+h3,
+p {
     font-family: lato, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: #3a3a3a;
 
 }
@@ -44,7 +45,7 @@ h3 {
 h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: #3a3a3a;
 
 }
@@ -125,7 +126,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 .hero-text h3 {
@@ -134,7 +135,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     padding-top: 1em;
 }
 
@@ -197,7 +198,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: black;
 }
 
@@ -205,7 +206,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: left;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     padding: 20px;
     width: 60vw;
 
@@ -216,7 +217,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     height: fit-content;
     width: 100%;
     background-color: rgba(240, 240, 240, 0.5);
@@ -248,7 +249,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     width: auto;
     height: fit-content;
     color: black;
@@ -259,7 +260,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: left;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 
     width: 40vw;
     height: fit-content;
@@ -292,17 +293,16 @@ h2 {
 }
 
 .structure div {
-    height: 45vh;
+    height: 30vh;
     width: auto;
-    font-size: larger;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 
 .structure h4 {
     font-family: inherit;
     text-transform: none;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 
     width: auto;
     height: fit-content;
@@ -314,16 +314,17 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: left;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     width: auto;
     height: fit-content;
     padding: 10px;
 }
 
 .offer {
+
     background-color: rgba(240, 240, 240, 0.5);
     margin: 10px;
-    height: auto;
+    height: 30vh;
     width: fit-content;
 
 }
@@ -334,7 +335,7 @@ h2 {
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: #3a3a3a;
     width: auto;
     height: fit-content;
@@ -349,7 +350,7 @@ h2 {
     font-family: inherit;
     text-transform: none;
     text-align: left;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 
     width: auto;
     height: fit-content;
@@ -358,7 +359,7 @@ h2 {
 }
 
 table {
-    font-size: small;
+    font-size: large;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -418,7 +419,7 @@ table td {
     font-family: inherit;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     margin: 20px;
     padding: 30px;
     background-color: rgba(240, 240, 240, 1);
