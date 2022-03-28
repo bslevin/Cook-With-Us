@@ -292,6 +292,7 @@ h2 {
 /*Create rules for the Courses section*/
 
 #our-courses {
+    padding: 3%;
     height: 100vh;
     width: auto;
 }
@@ -305,6 +306,7 @@ h2 {
 
 .structure {
     display: flex;
+    flex: 33%;
     justify-content: center;
     align-items: center;
     background-color: rgba(240, 240, 240, 0.5);
@@ -318,12 +320,13 @@ h2 {
     border: 2px solid white;
 }
 
-.structure h4 {
-    font-family: inherit;
-    text-transform: none;
+.structure h3 {
+    font-family: oswald, sans-serif;
+    font-weight: 300;
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 1px;
-
+    color: #3a3a3a;
     width: auto;
     height: fit-content;
 
@@ -344,7 +347,7 @@ h2 {
 
     background-color: rgba(240, 240, 240, 0.5);
     margin: 10px;
-    height: 25vh;
+    height: fit-content;
     width: fit-content;
 
 }
@@ -434,7 +437,7 @@ table td {
 
 .signup-form {
 
-    height: fit-content;
+    height: 80%;
     width: 80%;
 
     font-size: 130%;
@@ -646,6 +649,10 @@ button:hover {
 
     .structure div {
         height: fit-content;
+    }
+
+    .offer {
+        ;
     }
 }
 
