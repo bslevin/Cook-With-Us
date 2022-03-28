@@ -101,7 +101,7 @@
 > Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
 > Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/navbar%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/navbar%20Medium.png?raw=truegit)
 
 ## Hero section
 > The hero image was taken Pexel.com.
@@ -109,7 +109,7 @@
 > A hero text uses an opaque background the width of the scree, text color #fff.
 > The hero-text is used to explain the site and entice the users attention.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/Hero-image%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/Hero-image%20Medium.png?raw=true)
 
 ## About Us
 > The about us section introduces the user to the Chef and founder of the bussiness, her accolades and the venue where the courses take place. 
@@ -122,9 +122,9 @@
 - 2 Awards connected to the chef
 - 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/The%20Chef%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/The%20Chef%20Medium.png?raw=true)
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/Awards-Kitchen%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/Awards-Kitchen%20Medium.png?raw=true)
 
 ## Our Courses
 
@@ -133,7 +133,7 @@
 - What the business has to offer, it's uniquness and the oportunity it supplies the trainee.
 - A table to give information regarding each course; begginging date, cost per course & the cost of accomadation.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/our-courses%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/our-courses%20Medium.png?raw=true)
 
 ## Sign Up
 
@@ -149,7 +149,7 @@
 - A query textarea. Placeholder and no resize added.
 - Submit button whit :hoover color blue.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/signup-form%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/signup-form%20Medium.png?raw=true)
 
 ## Contact section
 
@@ -157,12 +157,21 @@
 - Social media links
 - Address
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/contact%20Medium.png)
+![Screenshot of the website on serveral screen sizes](assets/screenshots/contact%20Medium.png?raw=true)
 
 
 -----------------------------------------------------------------
 # Testing
 <a name="testing"></a>
+
+## Testing
+---
+
+- I tested this page work in different browsers: Chrome Firefox & Microsoft Edge.
+- I confirm this project is responsive, looks good and functions on all standard screen sizes using the DevTools device toolbar.
+- I confirmed that the navigation, H1, and H2 are visibly recognisable.
+- I confirmed that the form works. It requires entries in required field and the submit button works.
+
 
 **Testing navbar links, social media and Form**
 > All links on Navbar lead to the correct section.
@@ -170,6 +179,25 @@
 > Social media links in the footer lead to their respective social media sites.
 
 > Sign Up form submits when all criteria is filled correctly.
+
+### Validator Testing
+
+- HTML
+
+The warning can be ignored, as no heading is required for this section.
+
+![Screenshot HTML Validator](assets/screenshots/html-validation%20Large.png?raw=true)
+
+- CSS
+
+![Screenshot CSS Validator](assets/screenshots/css-validation%20Large.png?raw=true)
+
+- Accessibility
+
+I confirmed that the colors and fonts chosen are easy to read and accessible by running lighthouse in DevTools.
+
+![Screenshot lighthouse, DevTools](assets/screenshots/lighthouse%20Small.png?raw=true)
+
 
 
 -----------------------------------------------------------------
@@ -181,6 +209,8 @@
 > Added flex to the about us section. **fixed**
 
 > The form of the Sign Up section would overlap in landscape mode. **fixed**
+
+> Error on style.css line 559. **fixed**
 
 -----------------------------------------------------------------
 # Deployment
