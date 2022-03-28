@@ -172,7 +172,7 @@ h2 {
 }
 
 .chef {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,7 +344,7 @@ h2 {
 
     background-color: rgba(240, 240, 240, 0.5);
     margin: 10px;
-    height: 30vh;
+    height: 25vh;
     width: fit-content;
 
 }
@@ -409,7 +409,7 @@ table td {
 
 /*Create form rules and add image to the sign-up section*/
 #sign-up {
-    border: 1px solid red;
+    
 }
 #sign-up h2 {
 
