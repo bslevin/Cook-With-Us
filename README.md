@@ -91,10 +91,7 @@
  - Lato
  - Oswald
 > They are visibly pleasing and suited the minimal style I was going for.
-
-
 -----------------------------------------------------------------
-
 
 # FEATURES
 <a name="features"></a>
@@ -123,7 +120,7 @@
 > Done in 3 sections
 - 1 Introduction to chef 
 - 2 Awards connected to the chef
--  3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
+- 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/The%20Chef%20Medium.png)
 
@@ -172,6 +169,11 @@
 # Bugs
 <a name="bugs"></a>
 
+> Issue with sections feeling bunched together. **fixed**
+
+> Added flex to the about us section. **fixed**
+
+> The form of the Sign Up section would overlap in landscape mode. **fixed**
 
 -----------------------------------------------------------------
 # Deployment
