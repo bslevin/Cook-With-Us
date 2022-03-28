@@ -32,10 +32,10 @@
  > I have a passion for cooking and thought it best to incorporate that passion for the project.
  
  ## UX
- > In approaching this project I started by determining the user and business interests.
+ > In approaching this project I started by determining both the user and business interests.
 
  ### User
-> As a user I want to be able to train in a professional enviroment.  
+> As a user I want to be able to train in a professional cooking enviroment.  
 > As a user I want to be able to see the enviroment.  
 > As a user I want to be able to see acolades of the owner.  
 > As a user I want to be able to see the courses on offer.
@@ -50,7 +50,7 @@
 
 ### Scope Plane
 > The website should have a Navigation menu that is consistent across all devices.  
-> The website should have a message for the user explaining what is on offer.  
+> The website should have a message for the user explaining what it is.  
 > The website should encourage the user to scroll and find out more about the bussiness.   
 > The website should include information regarding each course.
 > The website should give the user a way of sellecting each course through a form.
@@ -73,14 +73,13 @@
 ## Page apearence 
 
 ### Color
-> To keep the apearence minimal, the below colors were chosen.
+> For a minimal appearence the below colors were chosen.
 
  - #3a3a3a  -   Background-color
  - #ffffff  -   White
  - #000000  -   Black
- - #0000ff  -   Hover state
 
-> On advice I removed text sitting on imgages and ultimatly changed the whole layout to the better.
+> On advice I removed all text sitting over imgages leaving only the hero text.
 
 ### Images
 > The aim of the images chosen was to visualy intice the viewer into wanting more information.
@@ -101,26 +100,30 @@
 <a name="features"></a>
 
 ## Navigation
-- Top left of the landing page is a h1 headding 'Cook With Us', this is used as the logo. 
-- Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
-- Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
+> Top left of the landing page is a H1 headding 'Cook With Us', this is used as the logo. 
+> Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
+> Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/navbar%20Medium.png)
 
 ## Hero section
-- The hero image was taken Pexel.com.
-- The image is of two people working alongside eachother in a professional kitchen.
-- A hero text uses an opaque background the width of the scree, text color #fff.
-- The hero-text is used to explain the site and entice the users attention.
+> The hero image was taken Pexel.com.
+> The image is of two people working alongside eachother in a professional kitchen.
+> A hero text uses an opaque background the width of the scree, text color #fff.
+> The hero-text is used to explain the site and entice the users attention.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/Hero-image%20Medium.png)
 
 ## About Us
-The about us section introduces the user to the owner a founder of the bussiness, her accolades and the venue where the courses take place. This is an importamnt section to validate the user have searched for the site and to also showcase the level of expertise of the bussiness.
-Done in 3 sections
+> The about us section introduces the user to the Chef and founder of the bussiness, her accolades and the venue where the courses take place. 
+> This is an importamnt section to validate users who have searched for the site.
+> It showcase the level of expertise of the owner brings to the business.
+> The uniqness if the venue where the bussines has been purposfuly built.
+
+> Done in 3 sections
 - 1 Introduction to chef 
 - 2 Awards connected to the chef
-- 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
+-  3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/The%20Chef%20Medium.png)
 
@@ -128,18 +131,22 @@ Done in 3 sections
 
 ## Our Courses
 
-The Our Course section is again broken down in the elements.
-- Introduction to the individual courses and what is entailed in each course.
-- What the course has to offer, it's uniquness and the oportunity it supplies the trainee.
-- A table to give information regarding each course, Begginging, the cost & the cost of accomadation is introduced.
+> The Courses section is abroken down into:
+- The individual courses and a introduction to what is entailed in each course.
+- What the business has to offer, it's uniquness and the oportunity it supplies the trainee.
+- A table to give information regarding each course; begginging date, cost per course & the cost of accomadation.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/our-courses%20Medium.png)
 
 ## Sign Up
 
-The Sign Up section is made of a hero image for the background and the form sits inside a baground color with little opaque applied.
-The section is multi purposed. It allows the user enquire as to availabitly to individual or all the courses on offer. Gives the option for user to ask questions and allows the owner collect data on request. The data can be used if they need to scale the attendence of the course and should she scide to do a blog or newsletter.
+> The Sign Up section is made of a image for the background and the form sits inside it
+- backround color with little opaque applied.
+> Checkboxes are used to allow users mulitselect the courses that interst them.
+> Textarea gives the user the option to ask questions.
+> As a new bussiness the data request for information will be assesed for future course scheduling.
 
+### Contents of Sign Up form
 - Full Name and Email placeholder and required added.
 - 3 Checkboxes representing each course, checkbox used for multi select,
 - A query textarea. Placeholder and no resize added.
