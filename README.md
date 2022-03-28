@@ -10,19 +10,17 @@
 
 ## **[Repository](https://github.com/bslevin/Cook-With-Us)**
 
-------------------------------------------------------------------
+-----------------------------------------------------------------
 
 ## Table of contents
 
  1. [ Design ](#design)
- 2. [ Features ](#features)   
- 3. [ Technology used ](#tech) 
- 4. [ Testing ](#testing)  
- 6. [ Bugs ](#bugs)  
- 7. [ Deployment](#deployment)
- 8. [ Credits](#credits)
- 9. [ Content](#content)  
- 10. [ Acknowledgements](#acknowledgements)
+ 2. [ Features ](#features) 
+ 3. [ Technology](#tech)  
+ 4. [ Testing ](#testing)   
+ 6. [ Bugs ](#bugs)   
+ 7. [ Deployment](#deployment)  
+ 8. [ Credits](#credits)  
  
  ## Design
 
@@ -94,6 +92,8 @@
 > They are visibly pleasing and suited the minimal style I was going for.
 
 <a name="features"></a>
+-----------------------------------------------------------------
+
 
 ## FEATURES
 
@@ -152,12 +152,66 @@ Short section conatining social media links and address. As it is a new bussines
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/contact%20Medium.png)
 
+
+-----------------------------------------------------------------
+<a name="testing"></a>
 ## - Testing
 
+
+
+-----------------------------------------------------------------
+<a name="bugs"></a>
 ## - Bugs
 
+
+
+-----------------------------------------------------------------
+<a name="deployment"></a>
 ## - Deployment
 
+> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/bslevin/Cook-With-Us).
+
+ 1. Clicked `Settings` on the navigation menu of the repository
+ 2. Then selected the `Pages` menu on the side bar.
+ 3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+ 4. In the next dropdown labeled `/root` I left as the default option.
+ 5. Selected Save
+ 
+> GitHub sent a notifcation the project was being deployed and after about 1 minute the page was live.
+
+
+-----------------------------------------------------------------
+<a name="tech"></a>
+# Technology Used
+
+### Html
+> Used to structure my webpages and the bones of any web project
+
+### CSS
+> Used to style and add layout to my project.
+
+### Font Awesome
+> Used for all the icons in this project
+
+### GoogleFonts
+> Used for all the fonts used in this project and to compare potential fonts.
+
+### Canva
+> Used to create the favicon logo
+
+### Online-Convert.com
+> Used to convert files from png to webp to reduce size and improve web loading speed.
+
+
+-----------------------------------------------------------------
+<a name="testing"></a>
+# Testing
+> Testing on this project was mainly done manually by myself and a few friends to determine site usability, responsiveness and ensure it is intuitive to a completely new user.
+
+
+
+-----------------------------------------------------------------
+<a name="credits"></a>
 ## - Credits
 
 - Traversy Media tutorials on CSS and Flexbox.
