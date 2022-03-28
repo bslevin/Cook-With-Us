@@ -93,29 +93,24 @@
  - Oswald
 > They are visibly pleasing and suited the minimal style I was going for.
 
-
-
-
-
-
-
-
 <a name="features"></a>
 
 ## FEATURES
 
 ### - Navigation
-- Top left of the landing page is a h1 headding 'Cook With Us', this is used as the logo. For the future this is linked to the homepage.
-- Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. The link to the relevant section of the page. For the future as the site grows they can become individual pages themselves.
-- Logo H1 uses the Lato font and Nav menu use Oswald font as they compliment eachother nicely.
+- Top left of the landing page is a h1 headding 'Cook With Us', this is used as the logo. 
+- Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
+- Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
 
-![Screenshot of the website on serveral screen sizes]()
+![Screenshot of the website on serveral screen sizes](assets/screenshots/navbar%20Medium.png)
 
 ### - Hero section
-- The hero image was taken Pexel.com, It is used to draw the the user in. Two chefs working side by side in a professional Kitchen.
-- A hero text that sit 20px off the bottom of the hero image, its uses an opaque background color and white on the text color. Claerly identifiying the purpose of the site and captivating the users attention.
+- The hero image was taken Pexel.com.
+- The image is of two people working alongside eachother in a professional kitchen.
+- A hero text uses an opaque background the width of the scree, text color #fff.
+- The hero-text is used to explain the site and entice the users attention.
 
-![Screenshot of the website on serveral screen sizes]()
+![Screenshot of the website on serveral screen sizes](assets/screenshots/Hero-image%20Medium.png)
 
 ### - About Us
 The about us section introduces the user to the owner a founder of the bussiness, her accolades and the venue where the courses take place. This is an importamnt section to validate the user have searched for the site and to also showcase the level of expertise of the bussiness.
@@ -124,12 +119,18 @@ Done in 3 sections
 - 2 Awards connected to the chef
 - 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
 
+![Screenshot of the website on serveral screen sizes](assets/screenshots/The%20Chef%20Medium.png)
+
+![Screenshot of the website on serveral screen sizes](assets/screenshots/Awards-Kitchen%20Medium.png)
+
 ### - Our Courses
 
 The Our Course section is again broken down in the elements.
 - Introduction to the individual courses and what is entailed in each course.
 - What the course has to offer, it's uniquness and the oportunity it supplies the trainee.
 - A table to give information regarding each course, Begginging, the cost & the cost of accomadation is introduced.
+
+![Screenshot of the website on serveral screen sizes](assets/screenshots/our-courses%20Medium.png)
 
 ### - Sign Up
 
@@ -141,6 +142,7 @@ The section is multi purposed. It allows the user enquire as to availabitly to i
 - A query textarea. Placeholder and no resize added.
 - Submit button whit :hoover color blue.
 
+![Screenshot of the website on serveral screen sizes](assets/screenshots/signup-form%20Medium.png)
 
 ### - Contact section
 
@@ -148,13 +150,13 @@ Short section conatining social media links and address. As it is a new bussines
 - Social media links
 - Address
 
-### - Testing
+![Screenshot of the website on serveral screen sizes](assets/screenshots/contact%20Medium.png)
 
-### - Bugs
+## - Testing
 
-### - Validator Testing
+## - Bugs
 
-### - Deployment
+## - Deployment
 
 ## - Credits
 
