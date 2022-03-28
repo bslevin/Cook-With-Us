@@ -49,7 +49,7 @@
 > As the site owner I want to the website to establish itself as a profeesional cooking school. 
 > As the site owner I want to the website to gather information for future bussiness growth.   
 
-## Scope Plane
+### Scope Plane
 > The website should have a Navigation menu that is consistent across all devices.  
 > The website should have a message for the user explaining what is on offer.  
 > The website should encourage the user to scroll and find out more about the bussiness.   
@@ -69,7 +69,7 @@
 ![Home page mobile responsive Wireframe]()
 
 > The flow in this website was a minimal design that provided relevant information in a consistent format on all devices.  
-> As the project was created, the intial design had to be altered as visualy the project was not pleasing.
+> As the project was created, the intial design had to be altered as visualy the pr#0000foject was not pleasing.
 > The color theme was opaque grey and white, for the section and contents within images.
 
 ## Surface Plane
@@ -78,9 +78,9 @@
 > To keep it minimilistic colors used were
 
  - #3a3a3a  -   Background-color
- - #fff     -   White
- - #000     -   Black
- - blue     -   Hover state
+ - #ffffff  -   White
+ - #000000  -   Black
+ - #0000ff  -   Hover state
 
 > The images are used as visual discriptions to the offer.
 > On advice I removed text sitting on imgages and ultimatly changed the whole layout to the better.
@@ -100,10 +100,9 @@
 
 
 
+<a name="features"></a>
 
 ## FEATURES
-- Google fonts lato and oswald are used througout.
-- Favicon for the 'cook' and fontawesome for the social meadia links.
 
 ### - Navigation
 - Top left of the landing page is a h1 headding 'Cook With Us', this is used as the logo. For the future this is linked to the homepage.
