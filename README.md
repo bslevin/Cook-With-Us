@@ -156,7 +156,7 @@
 
 ## Contact section
 
-Short section conatining social media links and address. As it is a new bussiness, with time these links will become more integrated in the learning and knowledge of the website. Also has the posibility, should the other links become indivdual pages to add more information.
+> Short section conatining social media links and Address. 
 - Social media links
 - Address
 
@@ -193,33 +193,19 @@ Short section conatining social media links and address. As it is a new bussines
 <a name="tech"></a>
 
 ### Html
-> Used to structure my webpages and the bones of any web project
+> Used to structure the webpages.
 
 ### CSS
-> Used to style and add layout to my project.
+> Used to style and add layout to the project.
 
 ### Font Awesome
-> Used for all the icons in this project
+> Used for social media icons in the project
 
 ### GoogleFonts
-> Used for all the fonts used in this project and to compare potential fonts.
+> Used for the fonts used in the project.
 
 ### Canva
-> Used to create the favicon logo
-
-### Online-Convert.com
-> Used to convert files from png to webp to reduce size and improve web loading speed.
-
-
------------------------------------------------------------------
-
-
-# Testing
-<a name="testing"></a>
-
-> Testing on this project was mainly done manually by myself, family and friends to determine site usability, responsiveness and ensure it is intuitive to a completely new user.
-
-
+> Used to create the favicon logo.
 
 -----------------------------------------------------------------
 
@@ -229,4 +215,3 @@ Short section conatining social media links and address. As it is a new bussines
 - Traversy Media tutorials on CSS and Flexbox.
 - Dev Ed tutorials.
 - Web Dev tutorials helped with the navbar issue I was having.
-- Figma was used as a wireframe.
