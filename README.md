@@ -1,6 +1,6 @@
 # Cook With Us
 
-## Fictional website for a cooking course in the North of Spain with a Michelin star chef.
+## Fictional website for a cooking course in Northern Spain with a Michelin star chef.
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/responsiveness.png?raw=true)
 
