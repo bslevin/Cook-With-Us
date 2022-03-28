@@ -15,10 +15,9 @@
 ## Table of contents
 
  1. [ Design ](#design)
- 2. [ Features ](#features)  
- 3. [ Features Left to Implement ](#left)  
- 4. [ Technology used ](#tech) 
- 5. [ Testing ](#testing)  
+ 2. [ Features ](#features)   
+ 3. [ Technology used ](#tech) 
+ 4. [ Testing ](#testing)  
  6. [ Bugs ](#bugs)  
  7. [ Deployment](#deployment)
  8. [ Credits](#credits)
@@ -59,7 +58,41 @@
 > The website should include information as to cost, accomodation and start dates of each couse. 
 
 ## Structure Plane
-> To acheieve the goals of the above the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.  
+> To acheieve the goals of the above the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.
+
+## Skeleton Plane
+
+### Home Page Desktop Wireframe
+![Home Page Desktop Wireframe]()
+
+### Home Page mobile wireframe
+![Home page mobile responsive Wireframe]()
+
+> The flow in this website was a minimal design that provided relevant information in a consistent format on all devices.  
+> As the project was created, the intial design had to be altered as visualy the project was not pleasing.
+> The color theme was opaque grey and white, for the section and contents within images.
+
+## Surface Plane
+
+### Color
+> To keep it minimilistic colors used were
+
+ - #3a3a3a  -   Background-color
+ - #fff     -   White
+ - #000     -   Black
+ - blue     -   Hover state
+
+> The images are used as visual discriptions to the offer.
+> On advice I removed text sitting on imgages and ultimatly changed the whole layout to the better.
+
+### Typography - 
+
+>The font's chosen for this project were:
+
+ - Lato
+ - Oswald
+> They are visibly pleasing and suited the minimal style I was going for.
+
 
 
 
