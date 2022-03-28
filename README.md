@@ -1,4 +1,5 @@
 # Cook With Us
+
 ## Fictional website for a cooking course in the North of Spain with a Michelin star chef.
 
 Cook with Us is a 3 part cooking course based in Northern Spain. The host is a a well established chef who's restaurant holds 2 michelin stars.
@@ -16,6 +17,61 @@ The data will be used to better understand the interest in the bussiness.
 ## **[Repository](https://github.com/bslevin/Cook-With-Us)**
 
 ------------------------------------------------------------------
+
+## Table of contents
+
+ 1. [ Design ](#design)
+ 2. [ Features ](#features)  
+ 3. [ Features Left to Implement ](#left)  
+ 4. [ Technology used ](#tech) 
+ 5. [ Testing ](#testing)  
+ 6. [ Bugs ](#bugs)  
+ 7. [ Deployment](#deployment)
+ 8. [ Credits](#credits)
+ 9. [ Content](#content)  
+ 10. [ Acknowledgements](#acknowledgements)
+ 
+ ## Design
+
+ <a name="design"></a>
+
+ ### Project planning
+ > I have a passion for cooking and thought it best to incorporate that passion for the project.
+
+ ### UX
+
+ > In approaching this project I started by determining the user and business interests.
+
+ ### User
+> As a user I want to be able to train in a professional enviroment.  
+> As a user I want to be able to see the enviroment.  
+> As a user I want to be able to see acolades of the owner.  
+> As a user I want to be able to see the courses on offer.
+> As a user I want to be able to request information from the business.
+
+### Business Owner
+> As the site owner I want to showcase the business to prospective customers.  
+> As the site owner I want to showcase the unique business and it's oportunities to students.  
+> As the site owner I want to customers to querry about the course.  
+> As the site owner I want to the website to establish itself as a profeesional cooking school. 
+> As the site owner I want to the website to gather information for future bussiness growth.   
+
+## Scope Plane
+> The website should have a Navigation menu that is consistent across all devices.  
+> The website should have a message for the user explaining what is on offer.  
+> The website should encourage the user to scroll and find out more about the bussiness.   
+> The website should include information regarding each course.
+> The website should give the user a way of sellecting each course through a form.
+> The website should include information as to cost, accomodation and start dates of each couse. 
+
+## Structure Plane
+> To acheieve the goals of the above the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.  
+
+
+
+
+
+
 
 
 ## FEATURES
