@@ -164,6 +164,13 @@
 # Testing
 <a name="testing"></a>
 
+**Testing navbar links, social media and Form**
+> All links on Navbar lead to the correct section.
+
+> Social media links in the footer lead to their respective social media sites.
+
+> Sign Up form submits when all criteria is filled correctly.
+
 
 -----------------------------------------------------------------
 # Bugs
