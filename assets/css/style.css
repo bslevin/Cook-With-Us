@@ -152,10 +152,10 @@ h2 {
 
 /*Create rules for the About-us section*/
 #about-us {
-    padding: 10%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    
 }
 #about-us h2 {
     font-size: 230%;
@@ -172,12 +172,14 @@ h2 {
 }
 
 .chef {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: rgba(240, 240, 240, 0.5);
-    margin: 10px;
+    padding: 1%;
+    
 }
 
 #the-chef {
@@ -194,9 +196,12 @@ h2 {
 }
 
 .chef-text {
+    display: flex;
     height: 50vh;
     width: auto;
     margin: 10px;
+    flex: 33%;
+    flex-direction: column;
 }
 
 .chef-text h3 {
@@ -219,6 +224,8 @@ h2 {
 }
 
 .awards {
+    border: 1px solid red;
+
     font-family: inherit;
     text-transform: none;
     text-align: center;
