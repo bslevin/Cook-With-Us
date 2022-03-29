@@ -25,7 +25,8 @@
  4. [ Testing ](#testing)   
  6. [ Bugs ](#bugs)   
  7. [ Deployment](#deployment)  
- 8. [ Credits](#credits)  
+ 8. [ Credits](#credits) 
+ 9. [Acknowledgement] (#acknowledgement)
  
 
  
@@ -259,3 +260,8 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 - Traversy Media tutorials on CSS and Flexbox.
 - Dev Ed tutorials.
 - Web Dev tutorials helped with the navbar issue I was having.
+
+## Acknowledgement
+<a name="acknowledgment"></a>
+
+> Three months ago I had no idea of what coding intailed. I owe so much to seeing the way other people wrote their code. Thank you!
