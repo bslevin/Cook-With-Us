@@ -200,7 +200,7 @@
 
 I confirmed that the colors and fonts chosen are easy to read and accessible by running lighthouse in DevTools.
 
-![Screenshot lighthouse, DevTools](assets/screenshots/lighthouse%20Small.png?raw=true)
+![Screenshot lighthouse, DevTools](assets/screenshots/lighthouse.png)
 
 
 
