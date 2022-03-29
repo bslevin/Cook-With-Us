@@ -23,10 +23,10 @@
  2. [ Features ](#features) 
  3. [ Technology](#tech)  
  4. [ Testing ](#testing)   
- 6. [ Bugs ](#bugs)   
- 7. [ Deployment](#deployment)  
- 8. [ Credits](#credits) 
- 9. [Acknowledgement] (#acknowledgement)
+ 5. [ Bugs ](#bugs)   
+ 6. [ Deployment](#deployment)  
+ 7. [ Credits](#credits)
+ 8. [ Acknowledgement](#acknowledgement)
  
 
  
