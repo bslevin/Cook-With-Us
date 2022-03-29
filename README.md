@@ -2,10 +2,9 @@
 ## Site overview 
 ### Fictional website
 
-> Cook with Us is 3 individual cooking courses, run throughout the year in Northern Spain. The host is a a well established chef who's restaurant holds 2 Michelin stars.
-
-> The site is aimed at mid-level and established chefs, as the opportunity to learn with an established Chef in a personalised environment. 
-> The website is an area to showcase what the course entails, to those who are curious to learn from this Chef.
+> Cook with Us is 3 individual cooking courses, run throughout the year in Northern Spain. The host is a an established chef whose restaurant holds 2 Michelin stars.
+> The site is aimed at knowledgeable students, as the opportunity to learn with this established Chef in a personalised environment. 
+> The website is an area to showcase what the course entails, for those who are curious to learn from this Chef.
 
 
 ![Screenshot of the website on serveral screen sizes](assets/screenshots/responsiveness.png?raw=true)
@@ -38,32 +37,32 @@
  > I have a passion for cooking and thought it best to incorporate that passion for the project.
  
  ## UX
- > In approaching this project I started by determining both the user and business interests.
+ > In approaching this project, I started by determining both the user and business interests.
 
  ### User
-> As a user I want to be able to train in a professional cooking enviroment.  
-> As a user I want to be able to see the enviroment.  
-> As a user I want to be able to see acolades of the owner.  
-> As a user I want to be able to see the courses on offer.
-> As a user I want to be able to request information from the business.
+> As a user, I want to be able to train in a professional cooking environment.  
+> As a user, I want to be able to see the environment.  
+> As a user, I want to be able to see accolades of the owner.  
+> As a user, I want to be able to see the courses on offer.
+> As a user, I want to be able to request information from the business.
 
 ### Business Owner
-> As the site owner I want to showcase the business to prospective customers.  
-> As the site owner I want to showcase the unique business and it's oportunities to students.  
-> As the site owner I want to customers to querry about the course.  
-> As the site owner I want to the website to establish itself as a profeesional cooking school. 
-> As the site owner I want to the website to gather information for future bussiness growth.   
+> As the site owner, I want to showcase the business to prospective customers.  
+> As the site owner, I want to showcase the unique business and it's oportunities to students.  
+> As the site owner, I want to customers to query about the course.  
+> As the site owner, I want to the website to establish itself as a profeesional cooking school. 
+> As the site owner, I want to the website to gather information for future business growth. 
 
 ### Scope Plane
-> The website should have a Navigation menu that is consistent across all devices.  
+> The website should have a navigation menu that is consistent across all devices.  
 > The website should have a message for the user explaining what it is.  
-> The website should encourage the user to scroll and find out more about the bussiness.   
+> The website should encourage the user to scroll and find out more about the business.   
 > The website should include information regarding each course.
 > The website should give the user a way of sellecting each course through a form.
 > The website should include information as to cost, accomodation and start dates of each couse. 
 
 ## Structure
-> To acheieve the goals of the above the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.
+> To acheieve the goals of the above, the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.
 
 ### Wireframes
 
