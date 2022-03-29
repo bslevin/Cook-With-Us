@@ -3,7 +3,7 @@
 ### Fictional website
 
 > Cook with Us is 3 individual cooking courses, run throughout the year in Northern Spain. The host is a an established chef whose restaurant holds 2 Michelin stars.
-> The site is aimed at knowledgeable students, as the opportunity to learn with this established Chef in a personalised environment. 
+> The site is aimed at knowledgeable students, as it offers the opportunity to learn with this established Chef in a personalised environment. 
 > The website is an area to showcase what the course entails, for those who are curious to learn from this Chef.
 
 
