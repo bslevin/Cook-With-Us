@@ -67,10 +67,10 @@
 ### Wireframes
 
 ### Home Page Desktop Wireframe
-![Home Page Desktop Wireframe]()
+![Home Page Desktop Wireframe](assets/screenshots/Wireframe.png)
 
 ### Home Page mobile wireframe
-![Home page mobile responsive Wireframe]()
+![Home page mobile responsive Wireframe](assets/screenshots/wireframe-mobile.png)
 
 > The flow of the website was to be of minimal design. Providing relevant information in a consistent format equally on all devices.  
 > As the project was created, upon advise the initail project had to be altered as visualy the project was not pleasing.
