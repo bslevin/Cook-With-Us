@@ -243,14 +243,14 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 ### CSS
 > Used to style and add layout to the project.
 
-### Font Awesome
-> Used for social media icons in the project
-
 ### GoogleFonts
 > Used for the fonts used in the project.
 
-### Canva
-> Used to create the favicon logo.
+### Font Awesome
+> Used for social media icons in the project
+
+
+
 
 -----------------------------------------------------------------
 
