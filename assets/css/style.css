@@ -482,11 +482,15 @@ table td {
     font-size: medium;
 }
 
+.checkbox input {
+    cursor: pointer;
+}
+
 .checkbox {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    cursor: pointer;
+    
 }
 
 label {
@@ -514,7 +518,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-
+    cursor: pointer;
     height: max-content;
     width: max-content;
     border-radius: 15px 15px;
@@ -522,7 +526,8 @@ button {
 }
 
 button:hover {
-    color: blue
+    background-color: orangered;
+    color: #3a3a3a;
 }
 
 /*Create contact section style*/
