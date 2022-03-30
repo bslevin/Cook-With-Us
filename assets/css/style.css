@@ -440,7 +440,7 @@ table td {
 .signup-form {
 
     height: 80%;
-    width: 80%;
+    width: 60%;
 
     font-size: 130%;
     font-family: inherit;
@@ -459,21 +459,31 @@ table td {
 
 }
 
+::placeholder {
+ letter-spacing: 1px;
+ font-family: lato, sans-serif;
+ padding: 5px;
+}
+
 .text label {
+    font-family: oswald, sans-serif;
     font-size: larger;
     font-weight: bold;
 
 }
 
 .choose {
+    font-family: oswald, sans-serif;
     font-size: larger;
     font-weight: bold;
     margin-top: 20px;
 }
 
 .query {
+    font-family: oswald, sans-serif;
     font-size: larger;
     font-weight: bold;
+    letter-spacing: 1px;
     margin-top: 20px;
 }
 
