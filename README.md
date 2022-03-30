@@ -7,7 +7,7 @@
 > The website is an area to showcase what the course entails, for those who are curious to learn from this Chef.
 
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/responsiveness.png?raw=true)
+![Screenshot of the website on serveral screen sizes](assets/readme-images/responsiveness.png)
 
 ## **[Live Site](https://bslevin.github.io/Cook-With-Us/)**
 
@@ -69,11 +69,11 @@
 
 ### Home Page Desktop Wireframe
 
-[link](assets/screenshots/Wireframe.png)
+[link](assets/readme-images/Wireframe.png)
 
 ### Home Page mobile wireframe
 
-[link](assets/screenshots/Frame%202.png)
+[link](assets/readme-images/Frame%202.png)
 
 > The flow of the website was to be of minimal design. Providing relevant information in a consistent format equally on all devices.  
 > As the project was created, upon advise the initail project had to be altered as visualy the project was not pleasing.
@@ -109,7 +109,7 @@
 > Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
 > Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/navbar.png)
+![Screenshot of the navigation bar](assets/readme-images/navbar.png)
 
 ## Hero section
 > The hero image was taken Pexel.com.
@@ -117,7 +117,7 @@
 > A hero text uses an opaque background the width of the scree, text color #fff.
 > The hero-text is used to explain the site and entice the users attention.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/hero.png)
+![Screenshot of hero section](assets/readme-images/hero.png)
 
 ## About Us
 > The about us section introduces the user to the Chef and founder of the bussiness, her accolades and the venue where the courses take place. 
@@ -130,9 +130,9 @@
 - 2 Awards connected to the chef
 - 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/the-chef.png)
+![Screenshot of the about-us section](assets/readme-images/the-chef.png)
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/our-kitchen.png)
+![Screenshot of the about-us section](assets/readme-images/our-kitchen.png)
 
 ## Our Courses
 
@@ -141,7 +141,7 @@
 - What the business has to offer, it's uniquness and the oportunity it supplies the trainee.
 - A table to give information regarding each course; begginging date, cost per course & the cost of accomadation.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/our-courses.png)
+![Screenshot of the our-courses section](assets/readme-images/our-courses.png)
 
 ## Sign Up
 
@@ -157,7 +157,7 @@
 - A query textarea. Placeholder and no resize added.
 - Submit button whit :hoover color blue.
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/sign-up.png)
+![Screenshot of the sign-up section](assets/readme-images/sign-up.png)
 
 ## Contact section
 
@@ -165,7 +165,7 @@
 - Social media links
 - Address
 
-![Screenshot of the website on serveral screen sizes](assets/screenshots/social-media%202.png)
+![Screenshot of connect with us section](assets/readme-images/social-media%202.png)
 
 
 -----------------------------------------------------------------
@@ -192,17 +192,17 @@
 
 - HTML
 
-![Screenshot HTML Validator](assets/screenshots/html-validation%20Large.png?raw=true)
+![Screenshot HTML Validator](assets/readme-images/html-validation%20Large.png)
 
 - CSS
 
-![Screenshot CSS Validator](assets/screenshots/css-validation%20Large.png?raw=true)
+![Screenshot CSS Validator](assets/readme-images/css-validation%20Large.png)
 
 - Accessibility
 
 I confirmed that the colors and fonts chosen are easy to read and accessible by running lighthouse in DevTools.
 
-![Screenshot lighthouse, DevTools](assets/screenshots/lighthouse.png)
+![Screenshot lighthouse, DevTools](assets/readme-images/lighthouse.png)
 
 
 
