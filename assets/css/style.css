@@ -281,7 +281,7 @@ h2 {
 /*Create rules for the Courses section*/
 
 #our-courses {
-  padding: 3%;
+  padding: 0px 30px;
   height: 100vh;
   width: auto;
 }
@@ -388,8 +388,7 @@ table td {
 }
 
 /*Create form rules and add image to the sign-up section*/
-#sign-up {
-}
+
 #sign-up h2 {
   font-size: 230%;
   font-family: inherit;
