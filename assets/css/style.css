@@ -1,33 +1,32 @@
 /*import font from google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap");
 
 /*Clear any existing padding & margin from browser*/
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*Create .container rule*/
 
 .container {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 /*Create body rule*/
 
 body {
-    font-family: lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-    height: 100vh;
-    line-height: 1.6;
-    overflow: hidden;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
 }
 
 /*Add rule for h1,h3 and h2*/
@@ -35,709 +34,653 @@ body {
 h1,
 h3,
 p {
-    font-family: lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-
+  font-family: lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3a3a3a;
 }
 
 h2 {
-    font-family: oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3a3a3a;
 }
 
 /*Create logo rule*/
 
 .logo {
-    display: flex;
-    justify-content: left;
-    line-height: 50px;
+  display: flex;
+  justify-content: left;
+  line-height: 50px;
 }
 
 .logo h1 {
-    font-size: 230%;
-    text-transform: uppercase;
-    color: #3a3a3a;
-    margin-left: 10px;
+  font-size: 230%;
+  text-transform: uppercase;
+  color: #3a3a3a;
+  margin-left: 10px;
 }
 
 .logo a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*navbar and menu rules*/
 
 .navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
-    height: 100%;
+  height: 100%;
 }
 
 .menu ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
-    list-style: none;
-}   
+  list-style: none;
+}
 
 .menu li a {
-    display: block;
-    text-decoration: none;
-    color: rgba(58, 58, 58, .6);
-    padding: 1rem;
+  display: block;
+  text-decoration: none;
+  color: rgba(58, 58, 58, 0.6);
+  padding: 1rem;
 }
 
 .navbar li a:hover {
-    background:#3a3a3a;
-    border-radius: 30px 30px;
-    color: #fff;
+  background: #3a3a3a;
+  border-radius: 30px 30px;
+  color: #fff;
 }
 
 /*Create hero-image and hero text rules*/
 
 .hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
 
 #hero-image {
-    height: 100vh;
-    width: 100%;
-    background: url('../images/hero-image.jpeg') no-repeat;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background: url("../images/hero-image.jpeg") no-repeat;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text h2 {
-    font-family: inherit;
-    font-size: 250%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    letter-spacing: 1px;
+  font-family: inherit;
+  font-size: 250%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .hero-text h3 {
-    font-family: inherit;
-    font-size: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    letter-spacing: 1px;
-    padding-top: 1em;
+  font-family: inherit;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  padding-top: 1em;
 }
 
 .hero-text {
-    height: 150px;
-    width: 100%;
+  height: 150px;
+  width: 100%;
 
-    background-color: rgba(58, 58, 58, .6);
-    position: absolute;
+  background-color: rgba(58, 58, 58, 0.6);
+  position: absolute;
 
-    bottom: 0px;
-
+  bottom: 0px;
 }
 
 /*Create rules for the About-us section*/
 #about-us {
-    padding: 3%;
-    display: flex;
-    flex-direction: column;
-    
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
 }
 #about-us h2 {
-    font-size: 230%;
-    font-family: inherit;
-    text-align: center;
+  font-size: 230%;
+  font-family: inherit;
+  text-align: center;
 }
 
 #about-us h3 {
-
-    font-family: oswald, sans-serif;
-    font-size: 180%;
-    font-weight: 900;
-    text-align: center;
+  font-family: oswald, sans-serif;
+  font-size: 180%;
+  font-weight: 900;
+  text-align: center;
 }
 
 .chef {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: rgba(240, 240, 240, 0.5);
-    padding: 1%;
-    
+  background-color: rgba(240, 240, 240, 0.5);
+  padding: 1%;
 }
 
 #the-chef {
+  height: 50vh;
+  width: 100%;
+  background: url(../images/chef-sandra.jpeg);
 
-    height: 50vh;
-    width: 100%;
-    background: url(../images/chef-sandra.jpeg);
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 10px;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
 }
 
 .chef-text {
-    display: flex;
-    height: 50vh;
-    width: auto;
-    margin: 10px;
-    flex: 33%;
-    flex-direction: column;
+  display: flex;
+  height: 50vh;
+  width: auto;
+  margin: 10px;
+  flex: 33%;
+  flex-direction: column;
 }
 
 .chef-text h3 {
-    font-family: inherit;
-    text-transform: none;
-    text-align: center;
-    letter-spacing: 1px;
-    color: black;
+  font-family: inherit;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 1px;
+  color: black;
 }
 
 .chef p {
-    font-family: inherit;
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 1px;
-    padding: 20px;
-    width: 60vw;
-
-
+  font-family: inherit;
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 1px;
+  padding: 20px;
+  width: 60vw;
 }
 
 .awards {
-    
-    font-family: inherit;
-    text-transform: none;
-    text-align: center;
-    letter-spacing: 1px;
-    height: fit-content;
-    width: 100%;
-    background-color: rgba(240, 240, 240, 0.5);
-    color: black;
+  font-family: inherit;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 1px;
+  height: fit-content;
+  width: 100%;
+  background-color: rgba(240, 240, 240, 0.5);
+  color: black;
 }
 
-
 .kitchen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(240, 240, 240, 0.5);
-    padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.5);
+  padding: 1%;
 }
 
 #the-kitchen {
-    height: 50vh;
-    width: 100%;
-    background: url(../images/kitchen.jpeg);
+  height: 50vh;
+  width: 100%;
+  background: url(../images/kitchen.jpeg);
 
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
 }
 
 .kitchen-text {
-    display: flex;
-    height: 50vh;
-    width: auto;
-    margin: 10px;
-    flex: 33%;
-    flex-direction: column;
+  display: flex;
+  height: 50vh;
+  width: auto;
+  margin: 10px;
+  flex: 33%;
+  flex-direction: column;
 }
 
 .kitchen h3 {
-
-    font-family: inherit;
-    text-transform: none;
-    text-align: center;
-    letter-spacing: 1px;
-    width: auto;
-    height: fit-content;
-    color: black;
-
+  font-family: inherit;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 1px;
+  width: auto;
+  height: fit-content;
+  color: black;
 }
 
 .kitchen p {
-    font-family: inherit;
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 1px;
+  font-family: inherit;
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 1px;
 
-    width: 40vw;
-    height: fit-content;
+  width: 40vw;
+  height: fit-content;
 
-    padding: 20px;
-    color: black;
+  padding: 20px;
+  color: black;
 }
 
 /*Create rules for the Courses section*/
 
 #our-courses {
-    padding: 3%;
-    height: 100vh;
-    width: auto;
+  padding: 3%;
+  height: 100vh;
+  width: auto;
 }
 
 #our-courses h2 {
-    font-size: 230%;
-    font-family: inherit;
-    text-align: center;
-
+  font-size: 230%;
+  font-family: inherit;
+  text-align: center;
 }
 
 .structure {
-    display: flex;
-    flex: 33%;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(240, 240, 240, 0.5);
-    margin: 10px;
-
+  display: flex;
+  flex: 33%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.5);
+  margin: 10px;
 }
 
 .structure div {
-    height: 30vh;
-    width: auto;
-    border: 2px solid white;
+  height: 30vh;
+  width: auto;
+  border: 2px solid white;
 }
 
 .structure h3 {
-    font-family: oswald, sans-serif;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    width: auto;
-    height: fit-content;
-
+  font-family: oswald, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3a3a3a;
+  width: auto;
+  height: fit-content;
 }
 
 .structure p {
-
-    font-family: inherit;
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 1px;
-    width: auto;
-    height: fit-content;
-    padding: 10px;
+  font-family: inherit;
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 1px;
+  width: auto;
+  height: fit-content;
+  padding: 10px;
 }
 
 .offer {
-
-    background-color: rgba(240, 240, 240, 0.5);
-    margin: 10px;
-    height: fit-content;
-    width: fit-content;
-
+  background-color: rgba(240, 240, 240, 0.5);
+  margin: 10px;
+  height: fit-content;
+  width: fit-content;
 }
 
 .offer h3 {
+  font-family: oswald, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3a3a3a;
+  width: auto;
+  height: fit-content;
 
-    font-family: oswald, sans-serif;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    width: auto;
-    height: fit-content;
-
-
-    color: black;
-    margin: 0px;
+  color: black;
+  margin: 0px;
 }
 
 .offer p {
+  font-family: inherit;
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 1px;
 
-    font-family: inherit;
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 1px;
+  width: auto;
+  height: fit-content;
 
-    width: auto;
-    height: fit-content;
-
-    padding: 10px;
+  padding: 10px;
 }
 
 table {
-    font-size: large;
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    
-    height: auto;
-    width: 40%;
+  font-size: large;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: auto;
+  width: 40%;
 }
 
 table th {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: black;
-    color: rgba(240, 240, 240, 1);
-    padding: 5px;
-
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: rgba(240, 240, 240, 1);
+  padding: 5px;
 }
 
 table td {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgba(240, 240, 240, 0.5);
-    color: black;
-    padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(240, 240, 240, 0.5);
+  color: black;
+  padding: 5px;
 }
-
-
 
 /*Create form rules and add image to the sign-up section*/
 #sign-up {
-    
 }
 #sign-up h2 {
-
-    font-size: 230%;
-    font-family: inherit;
-    text-align: center;
+  font-size: 230%;
+  font-family: inherit;
+  text-align: center;
 }
 
 .signup-outter {
-    height: 100vh;
-    width: auto;
-    background: url(../images/sign-up.jpeg);
+  height: 100vh;
+  width: auto;
+  background: url(../images/sign-up.jpeg);
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .signup-form {
+  height: 80%;
+  width: 60%;
 
-    height: 80%;
-    width: 60%;
+  font-size: 130%;
+  font-family: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgba(240, 240, 240, 1);
 
-    font-size: 130%;
-    font-family: inherit;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    margin: 20px;
-    padding: 30px;
-    background-color: rgba(240, 240, 240, 1);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
 }
 
 ::placeholder {
- letter-spacing: 1px;
- font-family: lato, sans-serif;
- padding: 5px;
+  letter-spacing: 1px;
+  font-family: lato, sans-serif;
+  padding: 5px;
 }
 
 .text label {
-    font-family: oswald, sans-serif;
-    font-size: larger;
-    font-weight: bold;
-
+  font-family: oswald, sans-serif;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .choose {
-    font-family: oswald, sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    margin-top: 20px;
+  font-family: oswald, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .query {
-    font-family: oswald, sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: 20px;
+  font-family: oswald, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px;
 }
 
 .checkbox label {
-    font-style: italic;
-    font-size: medium;
+  font-style: italic;
+  font-size: medium;
 }
 
 .checkbox input {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .checkbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 label {
-    text-align: center;
+  text-align: center;
 }
 
 input {
-    height: 30px;
-    width: 100%;
-    justify-content: space-around;
+  height: 30px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 textarea {
-    height: 100px;
-    resize: none;
+  height: 100px;
+  resize: none;
 }
 
 button {
-    font-size: larger;
-    font-family: inherit;
-    text-transform: uppercase;
-    font-style: italic;
-    text-align: center;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    cursor: pointer;
-    height: max-content;
-    width: max-content;
-    border-radius: 15px 15px;
-    padding: 10px;
+  font-size: larger;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  cursor: pointer;
+  height: max-content;
+  width: max-content;
+  border-radius: 15px 15px;
+  padding: 10px;
 }
 
 button:hover {
-    background-color: orangered;
-    color: #3a3a3a;
+  background-color: orangered;
+  color: #3a3a3a;
 }
 
 /*Create contact section style*/
 
 .contact {
-    background-color: white;
-    height: 40vh;
-    width: 100%;
-
+  background-color: white;
+  height: 40vh;
+  width: 100%;
 }
 
 .social h2 {
-    font-size: 230%;
-    font-family: inherit;
-    text-transform: uppercase;
-    color: #3a3a3a;
+  font-size: 230%;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: #3a3a3a;
 
-    padding: 10px;
+  padding: 10px;
 }
 
 .social {
-
-    text-align: center;
-
+  text-align: center;
 }
 
 .social a {
-    font-size: 230%;
-    margin: 15px;
-    padding: 5%;
-    color: #3a3a3a;
+  font-size: 230%;
+  margin: 15px;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 .address {
-    
-    font-family: oswald, sans-serif;
-    text-align: center;
-    color: #3a3a3a;
+  font-family: oswald, sans-serif;
+  text-align: center;
+  color: #3a3a3a;
 
-    padding: 10px;
+  padding: 10px;
 }
 
 .address h3 {
-
-    text-align: center;
-    color: #3a3a3a;
+  text-align: center;
+  color: #3a3a3a;
 }
 
 .arrow {
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
   border: none;
-  outline: none; 
+  outline: none;
   background-color: rgba(240, 240, 240, 0.2);
-  color: orangered; 
-  cursor: pointer; 
+  color: orangered;
+  cursor: pointer;
   padding: 15px;
-  border-radius: 50px; 
+  border-radius: 50px;
 }
 
 .arrow:hover {
-    background-color: orangered;
-  color: #000; 
-
+  background-color: orangered;
+  color: #000;
 }
 
 /*Create media queries*/
 
 @media screen and (min-width: 2400px) {
-    .logo {
-        font-size: larger;
-    }
+  .logo {
+    font-size: larger;
+  }
 
-    .menu {
-        font-size: larger;
+  .menu {
+    font-size: larger;
+  }
 
-    }
+  h2 {
+    font-size: larger;
+  }
 
-    h2 {
-        font-size: larger;
-    }
-
-    h3,
-    h4,
-    P {
-        font-size: xx-large;
-    }
+  h3,
+  h4,
+  P {
+    font-size: xx-large;
+  }
 }
 
 @media screen and (max-width: 900px) {
+  .chef {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 
-    .chef {
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
+  .chef-text {
+    height: fit-content;
+  }
 
-    }
+  .chef-text p {
+    width: auto;
+  }
 
-    .chef-text {
-        height: fit-content;
-    }
+  #the-chef {
+    height: 50vh;
+    width: 100%;
+    margin: 0px;
+  }
 
-    .chef-text p {
-        width: auto;
-    }
+  .awards {
+    font-size: 90%;
+  }
 
-    #the-chef {
-        height: 50vh;
-        width: 100%;
-        margin: 0px;
+  #the-kitchen {
+    height: 50vh;
+    width: 100%;
+    margin: 0px;
+  }
 
-    }
+  .kitchen {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
 
-    .awards {
-        font-size: 90%;
-    }
+  .kitchen p {
+    width: auto;
+  }
 
-    #the-kitchen {
-        height: 50vh;
-        width: 100%;
-        margin: 0px;
-    }
+  #our-courses {
+    height: auto;
+  }
 
-    .kitchen {
+  .structure {
+    display: flex;
+    flex-direction: column;
+  }
 
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-content: center;
-    }
+  .structure div {
+    height: fit-content;
+  }
 
-    .kitchen p {
-        width: auto;
-    }
-
-    #our-courses {
-        height: auto;
-    }
-
-    .structure {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .structure div {
-        height: fit-content;
-    }
-
-    .offer {
-    }
+  .offer {
+  }
 }
 
 @media screen and (max-width: 700px) {
+  .navbar {
+    display: block;
+  }
 
-    .navbar {
-        display: block;
+  .logo {
+    justify-content: center;
+  }
 
+  .menu ul li a {
+    padding: 0;
+  }
 
-    }
-
-    .logo {
-        justify-content: center;
-
-    }
-
-    .menu ul li a  {
-        padding: 0;
-
-    }
-
-    .menu ul li {
-
-        margin-left: auto;
-        margin-right: auto;
-
-    }
+  .menu ul li {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  table {
+    font-size: x-small;
+  }
 
-    table {
-        font-size: x-small;
-    }
-
-    .signup-outter {
-        height: fit-content;
-    }
+  .signup-outter {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .logo h1 {
+    text-align: center;
+    font-size: 200%;
+  }
 
-
-    .logo h1 {
-        text-align: center;
-        font-size: 200%;
-    }
-
-    .menu ul {
-        font-size: x-small;
-    }
-
+  .menu ul {
+    font-size: x-small;
+  }
 }
