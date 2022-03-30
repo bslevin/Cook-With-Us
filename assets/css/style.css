@@ -11,8 +11,9 @@
 /*Create .container rule*/
 
 .container {
-  width: 100%;
   height: 100vh;
+  width: 100%;
+  
 
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -21,9 +22,9 @@
 /*Create body rule*/
 
 body {
+  color: #3a3a3a;
   font-family: lato, sans-serif;
   font-weight: 300;
-  color: #3a3a3a;
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
@@ -34,24 +35,26 @@ body {
 h1,
 h3,
 p {
-  font-family: lato, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   color: #3a3a3a;
+  font-family: lato, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  
 }
 
 h2 {
+  color: #3a3a3a;
   font-family: oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #3a3a3a;
+  
 }
 
 /*Create logo rule*/
 
 .logo {
   display: flex;
-  justify-content: left;
   line-height: 50px;
 }
 
@@ -553,7 +556,6 @@ button:hover {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(240, 240, 240, 0.2);
   color: orangered;
   cursor: pointer;
   padding: 15px;
@@ -584,6 +586,9 @@ button:hover {
   h4,
   P {
     font-size: xx-large;
+  }
+  .signup-form {
+      height: auto;
   }
 }
 
@@ -641,8 +646,7 @@ button:hover {
     height: fit-content;
   }
 
-  .offer {
-  }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -671,6 +675,10 @@ button:hover {
 
   .signup-outter {
     height: fit-content;
+  }
+  .arrow {
+    bottom: 10px;
+    right: 10px;
   }
 }
 
