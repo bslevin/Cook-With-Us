@@ -2,12 +2,14 @@
 ## Site overview 
 ### Fictional website
 
-> Cook with Us is 3 individual cooking courses, run throughout the year in Northern Spain. The host is a an established chef whose restaurant holds 2 Michelin stars.
-> The site is aimed at knowledgeable students, as it offers the opportunity to learn with this established Chef in a personalised environment. 
-> The website is an area to showcase what the course entails, for those who are curious to learn from this Chef.
+Cook with Us is 3 individual cooking courses, run throughout the year in Northern Spain. The host is a an established chef whose restaurant holds 2 Michelin stars.
+The site is aimed at knowledgeable students, as it offers the opportunity to learn with this established Chef in a personalised environment. 
+The website is an area to showcase what the course entails, for those who are curious to learn from this Chef.
 
 
 ![Screenshot of the website on serveral screen sizes](assets/readme-images/responsiveness.png)
+
+------------------------------------------------------------------
 
 ## **[Live Site](https://bslevin.github.io/Cook-With-Us/)**
 
@@ -33,37 +35,34 @@
 
 # Design
 <a name="design"></a>
-
- ## Project planning
- > I have a passion for cooking and thought it best to incorporate that passion for the project.
  
  ## UX
- > In approaching this project, I started by determining both the user and business interests.
+ In approaching this project, I started by determining both the user and business interests.
 
  ### User
-> As a user, I want to be able to train in a professional cooking environment.  
-> As a user, I want to be able to see the environment.  
-> As a user, I want to be able to see accolades of the owner.  
-> As a user, I want to be able to see the courses on offer.
-> As a user, I want to be able to request information from the business.
+As a user, I want to be able to train in a professional cooking environment.  
+As a user, I want to be able to see the environment.  
+As a user, I want to be able to see accolades of the owner.  
+As a user, I want to be able to see the courses on offer.
+As a user, I want to be able to request information from the business.
 
 ### Business Owner
-> As the site owner, I want to showcase the business to prospective customers.  
-> As the site owner, I want to showcase the unique business and it's oportunities to students.  
-> As the site owner, I want to customers to query about the course.  
-> As the site owner, I want to the website to establish itself as a profeesional cooking school. 
-> As the site owner, I want to the website to gather information for future business growth. 
+As the site owner, I want to showcase the business to prospective customers.  
+As the site owner, I want to showcase the unique business and it's oportunities to students.  
+As the site owner, I want to customers to query about the course.  
+As the site owner, I want to the website to establish itself as a profeesional cooking school. 
+As the site owner, I want to the website to gather information for future business growth. 
 
 ### Scope Plane
-> The website should have a navigation menu that is consistent across all devices.  
-> The website should have a message for the user explaining what it is.  
-> The website should encourage the user to scroll and find out more about the business.   
-> The website should include information regarding each course.
-> The website should give the user a way of sellecting each course through a form.
-> The website should include information as to cost, accomodation and start dates of each couse. 
+The website should have a navigation menu that is consistent across all devices.  
+The website should have a message for the user explaining what it is.  
+The website should encourage the user to scroll and find out more about the business.   
+The website should include information regarding each course.
+The website should give the user a way of sellecting each course through a form.
+The website should include information as to cost, accomodation and start dates of each couse. 
 
 ## Structure
-> To acheieve the goals of the above, the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.
+To acheieve the goals of the above, the website should include at least 5 section consisting of:  Home, About Us, Our Courses, Sign Up and Contact.
 
 ### Wireframes
 
@@ -71,61 +70,59 @@
 
 [link](assets/readme-images/Wireframe.png)
 
-### Home Page mobile wireframe
+### Home Page Mobile wireframe
 
 [link](assets/readme-images/Frame%202.png)
 
-> The flow of the website was to be of minimal design. Providing relevant information in a consistent format equally on all devices.  
-> As the project was created, upon advise the initail project had to be altered as visualy the project was not pleasing.
+The flow of the website was to be of minimal design. Providing relevant information in a consistent format equally on all devices.  
+The project was created with iFigma. As the project was created, upon advise the initail project had to be altered as visualy the project was not pleasing.
 
 ## Page apearence 
 
 ### Color
-> For a minimal appearence the below colors were chosen.
+For a minimal appearence the below colors were chosen.
 
  - #3a3a3a  -   Background-color
  - #ffffff  -   White
  - #000000  -   Black
 
-> On advice I removed all text sitting over imgages leaving only the hero text.
-
 ### Images
-> The aim of the images chosen was to visualy intice the viewer into wanting more information.
+The aim of the images chosen was to visualy intice the viewer into wanting more information.
 
 ### Typography - 
-> H3 headings are purposfuly used to capture the veiwers attention.
+H3 headings are purposfuly used to capture the veiwers attention.
 
-> The font's chosen for this project were:
+The font's chosen for this project were:
  - Lato
  - Oswald
-> They are visibly pleasing and suited the minimal style I was going for.
+They are visibly pleasing and suited the minimal style I was going for.
 -----------------------------------------------------------------
 
 # FEATURES
 <a name="features"></a>
 
 ## Navigation
-> Top left of the landing page is a H1 headding 'Cook With Us', this is used as the logo. 
-> Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
-> Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
+Top left of the landing page is a H1 headding 'Cook With Us', this is used as the logo. 
+Top right of the page holds five menu navigations, Home, About, Our Courses, Sign-up and Contact. They link to the relevant section of the page.
+Logo H1 uses the Lato font and Nav menu use Oswald font, complimenting eachother nicely.
 
 ![Screenshot of the navigation bar](assets/readme-images/navbar.png)
 
 ## Hero section
-> The hero image was taken Pexel.com.
-> The image is of two people working alongside eachother in a professional kitchen.
-> A hero text uses an opaque background the width of the scree, text color #fff.
-> The hero-text is used to explain the site and entice the users attention.
+The hero image was taken Pexel.com.
+The image is of two people working alongside eachother in a professional kitchen.
+A hero text uses an opaque background the width of the scree, text color #fff.
+The hero-text is used to explain the site and entice the users attention.
 
 ![Screenshot of hero section](assets/readme-images/hero.png)
 
 ## About Us
-> The about us section introduces the user to the Chef and founder of the bussiness, her accolades and the venue where the courses take place. 
-> This is an importamnt section to validate users who have searched for the site.
-> It showcase the level of expertise of the owner brings to the business.
-> The uniqness if the venue where the bussines has been purposfuly built.
+The about us section introduces the user to the Chef and founder of the bussiness, her accolades and the venue where the courses take place. 
+This is an importamnt section to validate users who have searched for the site.
+It showcase the level of expertise of the owner brings to the business.
+The uniqness if the venue where the bussines has been purposfuly built.
 
-> Done in 3 sections
+Done in 3 sections
 - 1 Introduction to chef 
 - 2 Awards connected to the chef
 - 3 Introduction to the venue of the Kitchen. This section is as unique as is the oportunity to learn with the chef.
@@ -136,7 +133,7 @@
 
 ## Our Courses
 
-> The Courses section is abroken down into:
+The Courses section is abroken down into:
 - The individual courses and a introduction to what is entailed in each course.
 - What the business has to offer, it's uniquness and the oportunity it supplies the trainee.
 - A table to give information regarding each course; begginging date, cost per course & the cost of accomadation.
@@ -145,11 +142,11 @@
 
 ## Sign Up
 
-> The Sign Up section is made of a image for the background and the form sits inside it
+The Sign Up section is made of a image for the background and the form sits inside it
 - backround color with little opaque applied.
-> Checkboxes are used to allow users mulitselect the courses that interst them.
-> Textarea gives the user the option to ask questions.
-> As a new bussiness the data request for information will be assesed for future course scheduling.
+Checkboxes are used to allow users mulitselect the courses that interst them.
+Textarea gives the user the option to ask questions.
+As a new bussiness the data request for information will be assesed for future course scheduling.
 
 ### Contents of Sign Up form
 - Full Name and Email placeholder and required added.
@@ -161,7 +158,7 @@
 
 ## Contact section
 
-> Short section conatining social media links and Address. 
+Short section conatining social media links and Address. 
 - Social media links
 - Address
 
@@ -182,11 +179,11 @@
 
 
 **Testing navbar links, social media and Form**
-> All links on Navbar lead to the correct section.
+All links on Navbar lead to the correct section.
 
-> Social media links in the footer lead to their respective social media sites.
+Social media links in the footer lead to their respective social media sites.
 
-> Sign Up form submits when all criteria is filled correctly.
+Sign Up form submits when all criteria is filled correctly.
 
 ### Validator Testing
 
@@ -210,19 +207,19 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 # Bugs
 <a name="bugs"></a>
 
-> Issue with sections feeling bunched together. **fixed**
+Issue with sections feeling bunched together. **fixed**
 
-> Added flex to the about us section. **fixed**
+Added flex to the about us section. **fixed**
 
-> The form of the Sign Up section would overlap in landscape mode. **fixed**
+The form of the Sign Up section would overlap in landscape mode. **fixed**
 
-> Error on style.css line 559. **fixed**
+Error on style.css line 559. **fixed**
 
 -----------------------------------------------------------------
 # Deployment
 <a name="deployment"></a>
 
-> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/bslevin/Cook-With-Us).
+To deploy the project I followed these steps starting from the main project repository [here](https://github.com/bslevin/Cook-With-Us).
 
  1. Clicked `Settings` on the navigation menu of the repository
  2. Then selected the `Pages` menu on the side bar.
@@ -230,7 +227,7 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
  4. In the next dropdown labeled `/root` I left as the default option.
  5. Selected Save
  
-> GitHub sent a notifcation the project was being deployed and after about 1 minute the page was live.
+GitHub sent a notifcation the project was being deployed and after about 1 minute the page was live.
 
 
 -----------------------------------------------------------------
@@ -238,19 +235,16 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 <a name="tech"></a>
 
 ### Html
-> Used to structure the webpages.
+Used to structure the webpages.
 
 ### CSS
-> Used to style and add layout to the project.
+Used to style and add layout to the project.
 
 ### GoogleFonts
-> Used for the fonts used in the project.
+Used for the fonts used in the project.
 
 ### Font Awesome
-> Used for social media icons in the project
-
-
-
+Used for social media icons in the project
 
 -----------------------------------------------------------------
 
@@ -264,4 +258,4 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 ## Acknowledgement
 <a name="acknowledgment"></a>
 
-> Three months ago I had no idea of what coding intailed. I owe so much to seeing the way other people wrote their code. Thank you!
+Three months ago I had no idea of what coding intailed. I owe so much to seeing the way other people wrote their code. Thank you!
